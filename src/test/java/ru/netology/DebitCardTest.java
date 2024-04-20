@@ -36,7 +36,7 @@ public class DebitCardTest {
     @Test
     void launchTest() throws InterruptedException {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иван Иванов");
-        driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79050404944");
+        driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("79050404944");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
         driver.findElement(By.cssSelector("button")).click();
         String text = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText();
