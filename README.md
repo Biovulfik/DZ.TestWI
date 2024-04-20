@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/i4vgvof1jnmbqj9u/branch/master?svg=true)](https://ci.appveyor.com/project/Biovulfik/dz-testwi/branch/master)
